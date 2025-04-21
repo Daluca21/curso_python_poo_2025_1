@@ -33,7 +33,7 @@ class Persona :
     def presentarse ( self ):
         return f"Hola , soy { self.nombre } y tengo { self.edad } años ."
 
-class Estudiante ( Persona ):
+class Estudiante ( Persona , Tarea):
     def __init__ ( self , nombre , edad , universidad, tarea):
         super().__init__ ( nombre , edad )
         self.universidad = universidad
@@ -46,7 +46,6 @@ class Estudiante ( Persona ):
     def presentarse(self,):
         return f"Hola , soy { self.nombre } y tengo { self.edad } años, estudio en {self.universidad}."
     
-
 tarea1 = Tarea("Estudiar", "Revisar concepto producto cartesiano", "28-03")
 est = Estudiante (" Ana ", 20 , "Nacional", tarea1)
 #print(est.presentarse())
