@@ -1,0 +1,18 @@
+{
+    "nombre": "Usuario Ejemplo",
+    "correo": "ejemplo@correo.com",
+    "fecha_de_creacion": "2025-05-04T19:04:03.546490",
+    "tareas": [
+        {
+            "titulo": "My frenemies",
+            "descripcion": "Mano",
+            "fecha_de_creacion": "2025-05-04T19:04:35.061835",
+            "fecha_de_vencimiento": "2002-12-02T00:00:00",
+            "color_hexa": "#FF0000",
+            "prioridad": 4,
+            "materia": null
+        }
+    ],
+    "notas": [],
+    "materias": []
+}

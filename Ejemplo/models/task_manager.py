@@ -30,7 +30,7 @@ class TaskManager:
 
     def save_tasks(self):
         with open(self.filepath, 'w') as f:
-            json.dump([task.to_dict() for task in self.tasks], f, indent=4)
+            json.dump([task.to_dict() for task in self.tasks], f, indent=3)
 
     def get_tasks(self):
         return self.tasks
